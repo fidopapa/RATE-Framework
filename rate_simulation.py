@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # 1. 模型函数定义
 # ==========================================
 
-def calc_psychological_time(r, sigma, risk_coeff=0.4):
+def calc_psychological_time(r, sigma, risk_coeff=0.2):
     """
     计算心理时间 n (基于 ZZ-CAPM)
     公式: k = r + c(sigma), n = 1/k
